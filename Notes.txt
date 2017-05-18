@@ -1,0 +1,41 @@
+Current commit: Jul 10, 2014 Merge pull request #596 from SephirothSG/patch-1 …
+
+Oct 27, 2013:
+Did not move in ClientMsgHandler due to issue with protobuf, try to fix later.
+
+
+Made changes from this issue:
+https://github.com/Jessecar96/SteamBot/issues/467 to Bot.cs 
+I did not make changes to Bot.cs, so I'd recommend reverting it when a fixing commit comes up
+also changed steamweb.cs
+
+debug messages are at the very top of trademanager.cs
+
+Used old 20131017 Tradesession.cs and parts of Trade.cs that call into it.  The new tradesession.cs doesn't work properly
+
+BaseUserHandler
+CommonTradeUserHandler
+RareTradeUserHandler
+AdminUserHandler
+UncTradeUserHandler
+Bot
+UserHandler
+Trade
+TradeSession
+Configuration
+ForeignInventory
+Inventory
+Schema
+
+My Unc: Your Rare
+5:1
+10:2
+16:3 (BONUS)
+
+I am a bot, no need to negotiate.  Just add me and open trade.  
+
+I will try to give unique items and avoid duplicates. 
+
+Accepting only Standard quality items (no Frozen, Ausp, etc). 
+
+See other bots at: http://steamcommunity.com/groups/deanBOT
